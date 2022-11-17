@@ -1,0 +1,47 @@
+body {
+    background-color: black;
+    margin: 0px;
+    cursor: none;
+}
+.if_ruokalista {
+    width: 500px;
+    height: 850px;
+}
+.hidden {
+    position: absolute;
+    display: none;
+}
+.map {
+    margin-right: 25px;
+}
+.bg {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+
+    background-image: url("https://wallpapercave.com/wp/KZYW10n.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: blur(5px);
+}
+.container {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.window {
+    position: absolute;
+    padding: 25px;
+    border-radius: 25px;
+    background-color: white;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, .5);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
